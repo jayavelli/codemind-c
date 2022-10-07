@@ -8,17 +8,14 @@ int main()
      int i,j,c=1;
      for(i=1;i<=n;i++)
          {
-             for(j=1;j<n-1;j++)
+             for(j=1;j<=i;j++)
              {
                  
                      
                  
                  printf("%d",j);
              }
-             for(j=n-3;j>=1;j--)
-             {
-                 printf("%d",j);
-             }
+            
              
             
      printf("
